@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/youtube_icon.png">
+    <link rel="stylesheet" href="youtube.css" type="text/css">
+    <title>Youtube</title>
+</head>
+<body>
+    <nav>
+        <div class="Youtube">
+            <div class="menu">
+                <div class="menuline"></div>
+                <div class="menuline"></div>
+                <div class="menuline"></div>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/" target="_blank"><img src="../img/Youtube_Logo.png" alt="Youtube_Logo.png" height="30" width="120"></a>
+            </div>
+        </div>  
+        <div class="search-outline">
+            <form action="" class="searchbar">
+                <input type="text" placeholder="Search">
+                <button type="submit"><img src="../img/7503218_search_find_view_icon.png" alt=""></button>
+            </form> 
+        </div>
+        <ul>
+            <li><img src="../img/2750603_adjustment_basic_layout_grid_grid layout_icon.png" alt="" width="25" height="25"></li>
+            <li><img src="../img/4168568_data_upload_download_file_upgrade_icon.png" alt="" width="25" height="25"></li>
+            <li><img src="../img/2124020_bell_app_essential_icon.png" alt="" width="25" height="25"></li>
+            <li><img src="../img/youtube_profile.png" alt="" width="25" height="25" style="border-radius:50%;"></li>
+        </ul>
+    </nav>
+    <section class="video-info">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wHFflWvii3M?si=X9CSFlDMa3K7oce6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2 style="margin-top:15px;">How To Make Drop Down Menu Using HTML And CSS | HTML Website Tutorials</h2>
+          <div class="data-class">
+            <div class="p">
+                <p>3,331,187 views</p>
+            </div>
+            <ul>
+                <li><img src="../img/2849826_finger_interaction_hand_like_multimedia_icon.png" alt="" width="25" height="25"></li>
+                <li><p style="font-size:13px;">68K</p></li>
+                <li><img src="../img/2849816_finger_hand_like_multimedia_icon.png" alt="" width="25" height="25"></li>
+                <li><p style="font-size:13px;">3.5K</p></li>
+                <li><img src="../img/1564530_arrow_next_share_direction_icon.png" alt="" width="25" height="25"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-block">
+            <div class="icon-outline">
+                <img src="../img/youtube_icon.png" alt="" width="30" height="30">
+            </div>
+            <div>
+                <h4>Youtube</h4>
+                <p style="color: burlywood;">1.2M+ Subscribers</p>
+            </div>
+            <div>
+                <button id="subscribed">SUBSCRIBE</button>
+            </div>
+            <div>
+            <img src="../img/2124020_bell_app_essential_icon.png" alt="" width="25" height="25">
+            </div>
+        </div>
+    </section>
+         <div class="subscribe-form">
+            <iframe src="../youtube_clone/Html_Forms/index.html" frameborder="0" style="width:500px;height:500px;"></iframe>
+         </div>
+         <script>
+           const subscribe=document.getElementById('subscribed');
+    const subscribers=document.querySelector('.subscribe-form');
+    subscribe.addEventListener('click',()=>{
+        subscribers.classList.toggle('showmenu');
+    })
+         </script>
+</body>
+</html>

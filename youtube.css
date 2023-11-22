@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+    cursor: pointer;
+}
+/*navigation bar color*/
+nav{
+    border-bottom:1px solid #000000;
+    width:100%;
+    height:60px;
+    display:flex;
+}
+/*menu icon design*/
+.menuline{
+    width:30px;
+    height:1px;
+    background-color: #000000;
+    border-radius: 2px;
+    margin-bottom: 7px;
+}
+nav .menu{
+   width:4%;
+   padding:20px;
+   margin-left:10px;
+   margin-top:5px;
+}
+/* youtube icon and menubar in flex display*/
+.Youtube{
+    width:20%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*search bar styling css*/
+.searchbar{
+    width:100%;
+    max-width: 400px;
+    background-color: rgba(227, 217, 217, 0.2);
+    height: 10px;
+    border:2px solid black;
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+    padding:18px 10px;
+}
+.searchbar input{
+    width:80%;  
+    background-color: transparent;
+    height: 38px;
+    border:0;
+    outline:none;
+    flex:1;
+    border-right:1px solid black;
+}
+button img{
+    width:25px;  
+}
+.searchbar button{
+    background-color:transparent;
+    border:0;
+    padding-left:10px;
+}
+.search-outline{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/*right side icons*/
+
+nav ul li{
+   display:inline-block;
+   margin:20px;
+}
+/*body section styling*/
+
+section div{
+    padding-top:20px;
+    padding-left:30px;
+}
+section .info-block{
+    padding:0;
+    display:flex;
+    align-items: center;
+}
+.icon-outline{
+    margin-top:20px;
+    margin-left:30px;
+    border:1px solid black;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    padding:9px;
+}
+.data-class{
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+}
+.data-class ul li{
+    display:inline-block;
+    margin:3px;
+}
+.p{
+    margin-left:-180px;
+    margin-bottom:10px;
+    width:20%;
+    padding:5px;
+}
+.info-block button{
+    width:100px;
+    height:30px;
+    background-color: red;
+    color:white;
+    border-radius:3px;
+}
+.subscribe-form{
+    position:absolute;
+    top:10%;
+    left:50%;
+    display:none;
+}
+.showmenu{
+    display:block;
+}
